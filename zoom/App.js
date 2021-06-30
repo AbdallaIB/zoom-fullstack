@@ -16,7 +16,9 @@ class App extends React.Component {
     super(props);
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    console.log('hello')
+  }
 
   render() {
     return (
